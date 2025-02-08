@@ -28,7 +28,6 @@ public class Pathfinder : MonoBehaviour
 
     void FollowPath()
     {
-        Debug.Log(waypointIndex);
         if (waypointIndex < waypoints.Count)
         {
             Vector3 targetPosition = waypoints[waypointIndex].position;
