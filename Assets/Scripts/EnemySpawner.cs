@@ -8,6 +8,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float timeBetweenWaves = 2f;
     [SerializeField] bool isLooping = true;
     WaveConfigSO currentWave;
+    float timeBeforeFirstWave = 0.5f;
 
     void Start()
     {
@@ -16,6 +17,7 @@ public class EnemySpawner : MonoBehaviour
 
     IEnumerator SpawnEnemyWaves()
     {
+        yield return new WaitForSeconds(timeBeforeFirstWave);
         do
         {
             foreach (WaveConfigSO waveConfig in waveConfigs)
