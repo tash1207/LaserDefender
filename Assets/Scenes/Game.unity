@@ -640,7 +640,9 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: c150f29f623b0cd4588ad926423bf106, type: 2}
   - {fileID: 11400000, guid: 6a46c2f940d2f704c8578f34ffa8b164, type: 2}
-  timeBetweenWaves: 2
+  - {fileID: 11400000, guid: 4de97d0026da3c947b1e39592420b660, type: 2}
+  - {fileID: 11400000, guid: 6a46c2f940d2f704c8578f34ffa8b164, type: 2}
+  timeBetweenWaves: 1
   isLooping: 1
 --- !u!4 &1263275972
 Transform:
@@ -1248,6 +1250,14 @@ PrefabInstance:
     - target: {fileID: 9154675547675612200, guid: 93de360f7c91e294ab3e47bfbb952012, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160247904429953250, guid: 93de360f7c91e294ab3e47bfbb952012, type: 3}
+      propertyPath: moveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160247904429953250, guid: 93de360f7c91e294ab3e47bfbb952012, type: 3}
+      propertyPath: paddingTop
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
