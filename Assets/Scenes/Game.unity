@@ -640,6 +640,7 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: c150f29f623b0cd4588ad926423bf106, type: 2}
   - {fileID: 11400000, guid: 6a46c2f940d2f704c8578f34ffa8b164, type: 2}
+  - {fileID: 11400000, guid: 0b2f4fee57dfd564f9e2f14419138f60, type: 2}
   - {fileID: 11400000, guid: 4de97d0026da3c947b1e39592420b660, type: 2}
   - {fileID: 11400000, guid: 6a46c2f940d2f704c8578f34ffa8b164, type: 2}
   timeBetweenWaves: 1
